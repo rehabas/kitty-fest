@@ -6,7 +6,10 @@ module.exports = {
       backgroundImage: {
         'login-card': `
           linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
-          url('https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600')`,
+          url('assets/login.jpeg')`,
+        'register-card': `
+          linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+          url('assets/register.jpeg')`,
       },
       minHeight: {
         600: '600px',
