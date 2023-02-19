@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import PropTypes from 'prop-types';
 
 const Login = () => (
@@ -13,12 +14,12 @@ const Login = () => (
           libero repudiandae lilo.
         </div>
         <span className="mb-4">Don&apos;t you have an account?</span>
-        <button
-          type="button"
-          className="bg-white text-rebecca-purple w-1/2 p-2.5 font-bold focus:outline-none"
+        <Link
+          to="/register"
+          className="bg-white text-rebecca-purple w-1/2 p-2.5 font-bold focus:outline-none text-center"
         >
           Register
-        </button>
+        </Link>
       </div>
       <div className="w-1/2 p-[50px] flex flex-col space-y-11 justify-center">
         <h1 className="text-dark-gray text-4xl font-lato font-semibold">
