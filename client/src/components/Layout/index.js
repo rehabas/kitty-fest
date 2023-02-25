@@ -10,7 +10,9 @@ const Layout = () => (
     <Navbar />
     <div className="flex">
       <LeftBar />
-      <Outlet />
+      <div className="grow-6">
+        <Outlet />
+      </div>
       <RightBar />
     </div>
   </div>
