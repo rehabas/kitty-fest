@@ -21,6 +21,12 @@ module.exports = {
         purple: '#938eef',
         'dark-blue': '#00008B',
       },
+      flexGrow: {
+        1: '1',
+        2: '2',
+        3: '3',
+        6: '6',
+      }
     },
   },
   plugins: [],
