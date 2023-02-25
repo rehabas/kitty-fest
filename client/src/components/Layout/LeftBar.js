@@ -16,73 +16,73 @@ import Watch from '../../assets/leftBarIcons/watch.png';
 
 const LeftBar = () => (
   <div className="p-5 grow-2">
-    <div className="flex flex-col space-y-5">
+    <div className="flex flex-col space-y-3">
       <div className="flex items-center space-x-[10px]">
         <img
           src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="avatar"
-          className="w-[30px] h-[30px] rounded-full object-cover"
+          className="w-[23px] h-[23px] rounded-full object-cover"
         />
         <span className="text-sm">John Doe</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Friends} alt="friends" className="w-[30px]" />
+        <img src={Friends} alt="friends" className="w-[23px]" />
         <span className="text-sm">Friends</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Groups} alt="groups" className="w-[30px]" />
+        <img src={Groups} alt="groups" className="w-[23px]" />
         <span className="text-sm">Groups</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Market} alt="marketplace" className="w-[30px]" />
+        <img src={Market} alt="marketplace" className="w-[23px]" />
         <span className="text-sm">Marketplace</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Watch} alt="watch" className="w-[30px]" />
+        <img src={Watch} alt="watch" className="w-[23px]" />
         <span className="text-sm">Watch</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Memories} alt="memories" className="w-[30px]" />
+        <img src={Memories} alt="memories" className="w-[23px]" />
         <span className="text-sm">Memories</span>
       </div>
     </div>
-    <hr className="my-4 border-none h-[0.5px] bg-light-gray" />
-    <div className="flex flex-col space-y-5">
+    <hr className="my-4 border-none h-[0.4px] bg-light-gray" />
+    <div className="flex flex-col space-y-3">
       <span className="text-xs">Your shortcuts</span>
       <div className="flex items-center space-x-[10px]">
-        <img src={Events} alt="events" className="w-[30px]" />
+        <img src={Events} alt="events" className="w-[23px]" />
         <span className="text-sm">Events</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Gaming} alt="gaming" className="w-[30px]" />
+        <img src={Gaming} alt="gaming" className="w-[23px]" />
         <span className="text-sm">Gaming</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Gallery} alt="gallery" className="w-[30px]" />
+        <img src={Gallery} alt="gallery" className="w-[23px]" />
         <span className="text-sm">Gallery</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Videos} alt="videos" className="w-[30px]" />
+        <img src={Videos} alt="videos" className="w-[23px]" />
         <span className="text-sm">Videos</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Messages} alt="messages" className="w-[30px]" />
+        <img src={Messages} alt="messages" className="w-[23px]" />
         <span className="text-sm">Messages</span>
       </div>
     </div>
     <hr className="my-4 border-none h-[0.5px] bg-light-gray" />
-    <div className="flex flex-col space-y-5">
+    <div className="flex flex-col space-y-3gi">
       <span className="text-xs">Others</span>
       <div className="flex items-center space-x-[10px]">
-        <img src={Fund} alt="fundraiser" className="w-[30px]" />
+        <img src={Fund} alt="fundraiser" className="w-[23px]" />
         <span className="text-sm">Fundraiser</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Tutorials} alt="tutorials" className="w-[30px]" />
+        <img src={Tutorials} alt="tutorials" className="w-[23px]" />
         <span className="text-sm">Tutorials</span>
       </div>
       <div className="flex items-center space-x-[10px]">
-        <img src={Courses} alt="courses" className="w-[30px]" />
+        <img src={Courses} alt="courses" className="w-[23px]" />
         <span className="text-sm">Courses</span>
       </div>
     </div>
