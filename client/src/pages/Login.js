@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Login = () => (
   <div className="h-screen bg-[rgb(193,190,255)] flex justify-center items-center">
     <div className="flex bg-white w-3/5 rounded-[10px] min-h-600 overflow-hidden">
-      <div className="w-1/2 bg-login-card bg-cover bg-center p-12 flex flex-col text-white">
+      <div className="w-1/2 bg-login-card bg-cover bg-center p-12 flex flex-col text-white grow-1">
         <h1 className="text-7xl">Hello World.</h1>
         <div className="my-7">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
@@ -21,7 +21,7 @@ const Login = () => (
           Register
         </Link>
       </div>
-      <div className="w-1/2 p-[50px] flex flex-col space-y-11 justify-center">
+      <div className="w-1/2 p-[50px] flex flex-col space-y-11 justify-center grow-1">
         <h1 className="text-dark-gray text-4xl font-lato font-semibold">
           Login
         </h1>

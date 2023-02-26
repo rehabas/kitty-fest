@@ -20,13 +20,19 @@ module.exports = {
         'light-gray': '#D3D3D3',
         purple: '#938eef',
         'dark-blue': '#00008B',
+        'light-navy': '#5217ff',
+        'fire-opal': '#f0544f',
+        'lime-green': '#00ff00',
       },
       flexGrow: {
         1: '1',
         2: '2',
         3: '3',
         6: '6',
-      }
+      },
+      boxShadow: {
+        item: '0px 0px 15px 1px rgba(0, 0, 0, 0.09)',
+      },
     },
   },
   plugins: [],
