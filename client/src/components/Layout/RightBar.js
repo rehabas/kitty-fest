@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RightBar = () => (
-  <div className="grow-3 p-5">
+  <div className="grow-3 p-5 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar">
     <div className="shadow-item p-5 mb-5">
       <span className="text-gray-500">Suggestions for you</span>
       <div className="flex items-center justify-between my-5">

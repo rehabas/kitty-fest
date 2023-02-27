@@ -11,7 +11,7 @@ import {
 } from '@mui/icons-material';
 
 const Navbar = () => (
-  <div className="flex justify-between items-center py-3 px-5 border-b border-light-gray">
+  <div className="flex justify-between items-center py-3 px-5 border-b border-light-gray sticky top-0 bg-white z-50">
     <div className="flex space-x-8 items-center">
       <Link to="/">
         <span className="text-xl font-bold text-rebecca-purple">kittyfest</span>
