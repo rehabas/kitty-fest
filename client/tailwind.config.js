@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,html}'],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -16,6 +17,8 @@ module.exports = {
       },
       colors: {
         'rebecca-purple': '#663399',
+        'very-dark-gray': '#222',
+        'medium-gray': '#444',
         'dark-gray': '#555',
         'light-gray': '#D3D3D3',
         purple: '#938eef',
@@ -23,6 +26,9 @@ module.exports = {
         'light-navy': '#5217ff',
         'fire-opal': '#f0544f',
         'lime-green': '#00ff00',
+        'white-smoke': '#f5f5f5',
+        'soft-white': '#f6f3f3',
+        'dark-charcoal': '#333',
       },
       flexGrow: {
         1: '1',

@@ -10,7 +10,7 @@ const Layout = () => (
     <Navbar />
     <div className="flex">
       <LeftBar />
-      <div className="grow-6">
+      <div className="grow-6 bg-soft-white dark:bg-dark-charcoal">
         <Outlet />
       </div>
       <RightBar />

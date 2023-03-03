@@ -15,7 +15,7 @@ import Videos from '../../assets/leftBarIcons/videos.png';
 import Watch from '../../assets/leftBarIcons/watch.png';
 
 const LeftBar = () => (
-  <div className="p-5 grow-2 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar">
+  <div className="p-5 grow-2 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar dark:bg-very-dark-gray dark:text-white-smoke">
     <div className="flex flex-col space-y-5">
       <div className="flex items-center space-x-[10px]">
         <img
@@ -46,7 +46,7 @@ const LeftBar = () => (
         <span className="text-sm">Memories</span>
       </div>
     </div>
-    <hr className="my-4 border-none h-[0.5px] bg-light-gray" />
+    <hr className="my-4 border-none h-[0.5px] bg-light-gray dark:border-medium-gray" />
     <div className="flex flex-col space-y-5">
       <span className="text-xs">Your shortcuts</span>
       <div className="flex items-center space-x-[10px]">
@@ -70,7 +70,7 @@ const LeftBar = () => (
         <span className="text-sm">Messages</span>
       </div>
     </div>
-    <hr className="my-4 border-none h-[0.5px] bg-light-gray" />
+    <hr className="my-4 border-none h-[0.5px] bg-light-gray dark:border-medium-gray" />
     <div className="flex flex-col space-y-5">
       <span className="text-xs">Others</span>
       <div className="flex items-center space-x-[10px]">
