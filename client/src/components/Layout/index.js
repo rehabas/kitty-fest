@@ -8,9 +8,9 @@ import RightBar from './RightBar';
 const Layout = () => (
   <div>
     <Navbar />
-    <div className="flex">
+    <div className="grid grid-cols-6">
       <LeftBar />
-      <div className="grow-6 bg-soft-white dark:bg-dark-charcoal">
+      <div className="col-span-3 bg-soft-white dark:bg-dark-charcoal">
         <Outlet />
       </div>
       <RightBar />

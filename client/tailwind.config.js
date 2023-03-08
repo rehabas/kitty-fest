@@ -30,12 +30,6 @@ module.exports = {
         'soft-white': '#f6f3f3',
         'dark-charcoal': '#333',
       },
-      flexGrow: {
-        1: '1',
-        2: '2',
-        3: '3',
-        6: '6',
-      },
       boxShadow: {
         item: '0px 0px 15px 1px rgba(0, 0, 0, 0.09)',
       },
