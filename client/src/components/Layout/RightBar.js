@@ -1,11 +1,11 @@
 import React from 'react';
 
 const RightBar = () => (
-  <div className="grow-3 p-5 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
+  <div className="col-span-2 p-5 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
       <span className="text-gray-500">Suggestions for you</span>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
@@ -31,7 +31,7 @@ const RightBar = () => (
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
@@ -60,7 +60,7 @@ const RightBar = () => (
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
       <span className="text-gray-500">Latest Activities</span>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
@@ -74,17 +74,19 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke">1 min ago</span>
+          <span className="text-gray-500 dark:text-white-smoke text-sm">
+            1 min ago
+          </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <p className="text-gray-500 dark:text-light-gray">
+          <p className="text-gray-500 dark:text-light-gray text">
             <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
               Jane Doe
             </span>
@@ -92,11 +94,13 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke">1 min ago</span>
+          <span className="text-gray-500 dark:text-white-smoke text-sm">
+            1 min ago
+          </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
@@ -110,11 +114,13 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke">1 min ago</span>
+          <span className="text-gray-500 dark:text-white-smoke text-sm">
+            1 min ago
+          </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
@@ -128,72 +134,74 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke">1 min ago</span>
+          <span className="text-gray-500 dark:text-white-smoke text-sm">
+            1 min ago
+          </span>
         </div>
       </div>
     </div>
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
       <span className="text-gray-500">Online Friends</span>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5 relative">
+        <div className="flex items-center space-x-3 relative">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-[10px]" />
+          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-4" />
           <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
             Jane Doe
           </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5 relative">
+        <div className="flex items-center space-x-3 relative">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-[10px]" />
+          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-4" />
           <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
             Jane Doe
           </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5 relative">
+        <div className="flex items-center space-x-3 relative">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-[10px]" />
+          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-4" />
           <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
             Jane Doe
           </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5 relative">
+        <div className="flex items-center space-x-3 relative">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-[10px]" />
+          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-4" />
           <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
             Jane Doe
           </span>
         </div>
       </div>
       <div className="flex items-center justify-between my-5">
-        <div className="flex items-center space-x-5 relative">
+        <div className="flex items-center space-x-3 relative">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-[10px]" />
+          <div className="w-3 h-3 bg-lime-green rounded-full absolute top-0 left-4" />
           <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
             Jane Doe
           </span>
