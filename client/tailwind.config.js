@@ -32,6 +32,7 @@ module.exports = {
       },
       boxShadow: {
         item: '0px 0px 15px 1px rgba(0, 0, 0, 0.09)',
+        post: '0px 0px 25px -10px rgba(0, 0, 0, 0.38)',
       },
     },
   },
