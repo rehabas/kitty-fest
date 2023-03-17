@@ -29,6 +29,7 @@ module.exports = {
         'white-smoke': '#f5f5f5',
         'soft-white': '#f6f3f3',
         'dark-charcoal': '#333',
+        gray: '#808080',
       },
       boxShadow: {
         item: '0px 0px 15px 1px rgba(0, 0, 0, 0.09)',

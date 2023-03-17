@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import {
@@ -9,11 +9,16 @@ import {
   ShareOutlined,
 } from '@mui/icons-material';
 
+import Comments from './Comments';
+
 function Post(props) {
+  const [commentOpen, setCommentOpen] = useState(false);
+
   const liked = false;
+
   const { name, userId, profilePic, description, img } = props;
   return (
-    <div className="shadow-post rounded-[20px] bg-white dark:bg-very-dark-gray text-dark-gray dark:text-white-smoke p-5 mb-10">
+    <div className="shadow-post rounded-[20px] bg-white dark:bg-very-dark-gray text-dark-gray dark:text-white-smoke p-5">
       <div className="flex justify-between items-center">
         <div className="flex space-x-5">
           <img
@@ -39,31 +44,44 @@ function Post(props) {
         />
       </div>
       <div className="flex items-center space-x-5">
-        <div className="flex items-center space-x-2 cursor-pointer text-sm">
+        <button
+          className="flex items-center space-x-2 text-sm focus:outline-none"
+          type="button"
+        >
           {liked ? <FavoriteOutlined /> : <FavoriteBorderOutlined />}
           <span>12 Likes</span>
-        </div>
-        <div className="flex items-center space-x-2 cursor-pointer text-sm">
+        </button>
+        <button
+          className="flex items-center space-x-2 text-sm focus:outline-none"
+          type="button"
+          onClick={() => setCommentOpen(!commentOpen)}
+        >
           <TextsmsOutlined />
           <span>12 Comments</span>
-        </div>
-        <div className="flex items-center space-x-2 cursor-pointer text-sm">
+        </button>
+        <button
+          className="flex items-center space-x-2 text-sm focus:outline-none"
+          type="button"
+        >
           <ShareOutlined />
           <span>Share</span>
-        </div>
+        </button>
       </div>
+      {commentOpen && <Comments />}
     </div>
   );
 }
 
-Post.defaultProps = {};
+Post.defaultProps = {
+  img: undefined,
+};
 
 Post.propTypes = {
   name: PropTypes.string.isRequired,
   userId: PropTypes.number.isRequired,
   profilePic: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
+  img: PropTypes.string,
 };
 
 export default Post;
