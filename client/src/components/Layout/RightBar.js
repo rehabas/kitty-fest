@@ -1,9 +1,9 @@
 import React from 'react';
 
 const RightBar = () => (
-  <div className="col-span-2 p-5 sticky top-[70px] h-[calc(100vh-70px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
+  <div className="col-span-2 p-5 sticky top-[59px] h-[calc(100vh-59px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
-      <span className="text-gray-500">Suggestions for you</span>
+      <span className="text-gray">Suggestions For You</span>
       <div className="flex items-center justify-between my-5">
         <div className="flex items-center space-x-3">
           <img
@@ -58,7 +58,7 @@ const RightBar = () => (
       </div>
     </div>
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
-      <span className="text-gray-500">Latest Activities</span>
+      <span className="text-gray">Latest Activities</span>
       <div className="flex items-center justify-between my-5">
         <div className="flex items-center space-x-3">
           <img
@@ -66,7 +66,7 @@ const RightBar = () => (
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <p className="text-gray-500 dark:text-light-gray">
+          <p className="text-gray dark:text-light-gray">
             <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
               Jane Doe
             </span>
@@ -74,7 +74,7 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke text-sm">
+          <span className="text-gray dark:text-white-smoke text-sm">
             1 min ago
           </span>
         </div>
@@ -86,7 +86,7 @@ const RightBar = () => (
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <p className="text-gray-500 dark:text-light-gray text">
+          <p className="text-gray dark:text-light-gray text">
             <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
               Jane Doe
             </span>
@@ -94,7 +94,7 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke text-sm">
+          <span className="text-gray dark:text-white-smoke text-sm">
             1 min ago
           </span>
         </div>
@@ -106,7 +106,7 @@ const RightBar = () => (
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <p className="text-gray-500 dark:text-light-gray">
+          <p className="text-gray dark:text-light-gray">
             <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
               Jane Doe
             </span>
@@ -114,7 +114,7 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke text-sm">
+          <span className="text-gray dark:text-white-smoke text-sm">
             1 min ago
           </span>
         </div>
@@ -126,7 +126,7 @@ const RightBar = () => (
             alt="avatar"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <p className="text-gray-500 dark:text-light-gray">
+          <p className="text-gray dark:text-light-gray">
             <span className="text-sm font-semibold text-black dark:text-white-smoke mr-2">
               Jane Doe
             </span>
@@ -134,14 +134,14 @@ const RightBar = () => (
           </p>
         </div>
         <div>
-          <span className="text-gray-500 dark:text-white-smoke text-sm">
+          <span className="text-gray dark:text-white-smoke text-sm">
             1 min ago
           </span>
         </div>
       </div>
     </div>
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
-      <span className="text-gray-500">Online Friends</span>
+      <span className="text-gray">Online Friends</span>
       <div className="flex items-center justify-between my-5">
         <div className="flex items-center space-x-3 relative">
           <img

@@ -24,7 +24,7 @@ function Posts() {
     },
   ];
   return (
-    <div>
+    <div className="flex flex-col space-y-10">
       {posts.map((post) => (
         <Post
           key={post.id}
