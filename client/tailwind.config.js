@@ -15,6 +15,9 @@ module.exports = {
       minHeight: {
         600: '600px',
       },
+      height: {
+        '30vh': '30vh',
+      },
       colors: {
         'rebecca-purple': '#663399',
         'very-dark-gray': '#222',
@@ -35,6 +38,11 @@ module.exports = {
         item: '0px 0px 15px 1px rgba(0, 0, 0, 0.09)',
         post: '0px 0px 25px -10px rgba(0, 0, 0, 0.38)',
       },
+    },
+    screens: {
+      mobile: '320px',
+      tablet: '480px',
+      laptop: '960px',
     },
   },
   plugins: [],
