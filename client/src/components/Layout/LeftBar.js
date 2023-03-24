@@ -15,7 +15,7 @@ import Videos from '../../assets/leftBarIcons/videos.png';
 import Watch from '../../assets/leftBarIcons/watch.png';
 
 const LeftBar = () => (
-  <div className="p-5 sticky top-[59px] h-[calc(100vh-59px)] overflow-y-auto no-scrollbar dark:bg-very-dark-gray dark:text-white-smoke">
+  <div className="hidden tablet:inline-block p-5 sticky top-[59px] h-[calc(100vh-59px)] overflow-y-auto no-scrollbar dark:bg-very-dark-gray dark:text-white-smoke">
     <div className="flex flex-col space-y-5">
       <div className="flex items-center space-x-[10px]">
         <img

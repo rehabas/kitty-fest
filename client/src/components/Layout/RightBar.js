@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RightBar = () => (
-  <div className="col-span-2 p-5 sticky top-[59px] h-[calc(100vh-59px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
+  <div className="mobile:max-laptop:hidden col-span-2 p-5 sticky top-[59px] h-[calc(100vh-59px)] overflow-y-auto no-scrollbar bg-soft-white dark:bg-dark-charcoal">
     <div className="shadow-item p-5 mb-5 bg-white dark:bg-very-dark-gray">
       <span className="text-gray">Suggestions For You</span>
       <div className="flex items-center justify-between my-5">

@@ -36,15 +36,15 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search"
-            className="w-[500px] bg-transparent focus:outline-none"
+            className="hidden tablet:inline-block laptop:w-[500px] tablet:w-[200px] bg-transparent focus:outline-none"
           />
         </div>
       </div>
-      <div className="flex items-center space-x-5">
+      <div className="hidden tablet:flex items-center space-x-5">
         <PersonOutlined />
         <MailOutlined />
         <NotificationsOutlined />
-        <div className="flex items-center space-x-[10px]">
+        <div className="flex tablet:max-laptop:hidden items-center space-x-[10px]">
           <img
             src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="avatar"

@@ -27,9 +27,9 @@ const Profile = () => (
         className="w-40 h-40 rounded-full object-cover absolute left-0 right-0 m-auto top-[198px]"
       />
     </div>
-    <div className="py-5 px-12">
-      <div className="grid grid-cols-3 items-center mb-5 h-52 shadow-post rounded-[20px] dark:bg-very-dark-gray dark:text-white-smoke p-8">
-        <div className="flex space-x-2">
+    <div className="p-3 tablet:p-5 laptop:py-5 laptop:px-12">
+      <div className="mobile:max-tablet:grid-rows-4 mobile:max-tablet:gap-y-6 grid tablet:grid-cols-3 mobile:max-tablet:h-30vh items-center mb-5 h-52 shadow-post rounded-[20px] dark:bg-very-dark-gray dark:text-white-smoke p-5 tablet:p-8 mobile:max-tablet:mt-20">
+        <div className="flex flex-wrap space-x-2 mobile:max-tablet:justify-center">
           <a
             href="http://facebook.com"
             className="text-dark-gray dark:text-light-gray flex items-center"
@@ -61,9 +61,9 @@ const Profile = () => (
             <Pinterest />
           </a>
         </div>
-        <div className="flex flex-col space-y-2 items-center">
+        <div className="flex flex-col mobile:max-tablet:row-span-2 space-y-2 items-center">
           <span className="text-2xl leading-9">Jane Doe</span>
-          <div className="flex justify-around w-full">
+          <div className="flex justify-around w-3/5 tablet:w-full">
             <div className="flex justify-between items-center space-x-1 text-dark-gray dark:text-light-gray">
               <Place />
               <span className="text-xs">USA</span>
@@ -80,7 +80,7 @@ const Profile = () => (
             follow
           </button>
         </div>
-        <div className="flex justify-end space-x-2">
+        <div className="flex justify-end space-x-2 mobile:max-tablet:justify-center">
           <EmailOutlined />
           <MoreVert />
         </div>
